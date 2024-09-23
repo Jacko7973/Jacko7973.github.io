@@ -20,12 +20,15 @@
                     <li>
                         <a href="#socials" class="block p-0 text-gray-900 bg-transparent hover:text-blue-700 dark:hover:text-blue-500 dark:text-white">Socials</a>
                     </li>
+                    <li>
+                        <a href="#projects" class="block p-0 text-gray-900 bg-transparent hover:text-blue-700 dark:hover:text-blue-500 dark:text-white">Projects</a>
+                    </li>
                 </ul>
             </div>
         </div>
     </nav>
   
-    <main class="m-0 pt-16 bg-white dark:bg-gray-900">
+    <main class="m-0 bg-white dark:bg-gray-900">
         
         <section id="about" class="w-full h-screen flex">
             <div class="flex flex-col items-center px-4 m-auto max-w-screen-xl text-center">
@@ -77,8 +80,25 @@
                 </span>
                 <span class="h-10 w-10"></span>
               </a>
+        </section>
+
+        <section id="projects" class="flex flex-col h-screen bg-white p-4">
+            <div id="project-nav" class="rounded-full shadow-lg p-4">
+                <ul class="flex justify-between">
+                    <li class="m-auto">
+                        <a class="text-gray-900 bg-transparent hover:text-blue-700 dark:hover:text-blue-500 dark:text-white">8-Puzzle Solver</a>
+                    </li>
+                    <li class="m-auto rounded">
+                        <a class="text-gray-900 bg-transparent hover:text-blue-700 dark:hover:text-blue-500 dark:text-white">Sodoku Solver</a>
+                    </li>
+                </ul>
+            </div>
+            <div id="project-view" class="p-4">
+                <iframe src="projects/8puzzle.html" width="400" height="400" style="border: none;"></iframe>
+            </div>
 
         </section>
+
 
         <footer class="flex justify-center py-3">
             <span class="text-md text-gray-900 dark:text-white">Website made using <a href="https://tailwindcss.com/" class="text-blue-700">TailwindCSS</a></span>
